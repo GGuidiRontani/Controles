@@ -1,0 +1,21 @@
+Contrôle des données immersives au regarde des voies mentionnées au marché
+
+Analyse sur Qgis
+
+Sur le filaire recenssant les voies à lever, filtré par année
+- Boite à outils/Division des lignes par longueur maximale (100m)
+- Calculatrice de champs/Calculer longueur $lenght dans champ "long"
+- Boite à outils/Tampon (10m)
+
+Avec le produit de Tampon et le fichier de position des caméras :
+- Boite à outils/Compter les points dans les polygones poly=tampon points=positions caméras
+
+Avec le produit de Compter les points dans les polygones
+- Calculatrice de champs/Créer le champ "ratio" et calculer "NUMPOINTS" / "long" décimal précision 1
+- Style de couches/Représentation graduée sur "ratio" interval égal 2 valeurs (<0.25/0.25>)
+
+Sauvegarder le résultat
+
+- Boite à outils/Difference entre fichier de position caméra et le résultat sauvegardé (pour identifier les zones levées mais hors-commande)
+
+Sauvegarder le résultat

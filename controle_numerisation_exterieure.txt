@@ -1,0 +1,7 @@
+Contrôle de données de numérisations extérieures
+
+Préparation sur Qgis
+
+Définir un interval de recherche de points à contrôler. Le produit ne sert qu'à homogénéiser le contrôler et faciliter le travail.
+
+- Boite à outils/Points aléatoires à l'intérieur des polygones - stratégie nombre de points, comptage 1000 (pour avoir un seuil haut), distance minimale 100
